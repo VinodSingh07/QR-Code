@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  display: inline-block;
+  width: 18%;
+  margin: 130px auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.qr-code {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  margin: 12px 12px 0 12px;
+}
+h3 {
+  padding: 0 15px 0 15px;
+  text-align: center;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding: 0 18px 20px 18px;
+  text-align: center;
+  font-weight: 400;
+}
+/* ####### RESPONSIVE ########### */
+
+@media (max-width-500px) {
+  body {
+    font-size: 5px;
+  }
+  .qr-code {
+    width: 100px;
+    height: 100px;
+  }
+}
